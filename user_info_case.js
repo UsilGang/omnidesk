@@ -78,7 +78,7 @@ $(function() {
             <a class="nav-item-url " target="_blank" href="https://dev.iridi.com/Main_page">Wiki</a>
         </li>
         <li class="nav-item nav-item-companies inlb">
-            <a class="nav-item-url " target="_blank" href="https://dev.iridi.com/Main_page">Идеи</a>
+            <a class="nav-item-url " target="_blank" href="https://docs.google.com/spreadsheets/d/19PjQnLPuWRa3zfJPgOSDaL8H8hdwjD-7K8zWN5hQYrE/edit#gid=1992931452">Идеи</a>
         </li>
         <li class="nav-item nav-item-companies inlb">
             <a class="nav-item-url " target="_blank" href="https://docs.google.com/spreadsheets/d/1KURB2GmuW_d3h6DheHjEYfsY2BKqDFWbJu56sVm8upY/edit#gid=1979570075">ТП</a>
