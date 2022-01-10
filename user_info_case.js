@@ -76,6 +76,12 @@ $(function() {
         HORIZONTAL_MENU_ELEMENTS_SELECTOR,
         `<li class="nav-item nav-item-companies inlb">
             <a class="nav-item-url " target="_blank" href="https://dev.iridi.com/Main_page">Wiki</a>
+        </li>
+        <li class="nav-item nav-item-companies inlb">
+            <a class="nav-item-url " target="_blank" href="https://dev.iridi.com/Main_page">Идеи</a>
+        </li>
+        <li class="nav-item nav-item-companies inlb">
+            <a class="nav-item-url " target="_blank" href="https://docs.google.com/spreadsheets/d/1KURB2GmuW_d3h6DheHjEYfsY2BKqDFWbJu56sVm8upY/edit#gid=1979570075">ТП</a>
         </li>`,
         true
     );
