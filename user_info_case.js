@@ -75,7 +75,7 @@ $(function() {
     addCode(
         HORIZONTAL_MENU_ELEMENTS_SELECTOR,
         `<li class="nav-item nav-item-companies inlb">
-            <a class="nav-item-url " href="https://dev.iridi.com/Main_page">Wiki</a>
+            <a class="nav-item-url " target="_blank" href="https://dev.iridi.com/Main_page">Wiki</a>
         </li>`,
         true
     );
