@@ -59,7 +59,7 @@ $(function() {
      *
      * Сначала заголовок
      */
-
+    /*
     addCode(
         TOP_PANEL_SELECTOR,
         `<div style="color:red;">
@@ -67,7 +67,7 @@ $(function() {
         </div>`,
         true
     );
-
+    */
     /**
      * Пример добавления пункта в меню
      * Результат в коде Омнидеска https://www.dropbox.com/s/ymscgj7q7loj09o/02_custom_menu_item.png?dl=0
@@ -75,7 +75,7 @@ $(function() {
     addCode(
         HORIZONTAL_MENU_ELEMENTS_SELECTOR,
         `<li class="nav-item nav-item-companies inlb">
-            <a class="nav-item-url " href="#example">Example</a>
+            <a class="nav-item-url " href="https://dev.iridi.com/Main_page">Wiki</a>
         </li>`,
         true
     );
@@ -84,6 +84,7 @@ $(function() {
      * Пример добавления кнопки в блоках справа
      * Результат в коде Омнидеска https://www.dropbox.com/s/i0orxacnfrjwtwo/03_custom_button_in_header.png?dl=0
      */
+    /*
     addCode(
         HORIZONTAL_MENU_BUTTONS_SELECTOR,
         `<li class="global-action-item inlb force-login" title="Example">
@@ -93,17 +94,18 @@ $(function() {
         </li>`,
         false
     );
-
+    */
 
      /**
       * Добавляем в горизонтальное меню цвета своей компании
       * Результат в коде Омнидеска https://www.dropbox.com/s/3vtzym61el1659z/04_custom_styles.png?dl=0
       * Результат на странице https://www.dropbox.com/s/hfo696yiffw455a/04_2_custom_styles.png?dl=0
-      */
+      
      $(document).find(HORIZONTAL_MENU_SELECTOR).css({
          'border-bottom': 'solid 2px red',
      });
-
+     */
+    
      /**
       * Подключаем свой CSS в код Омнидеска. В CSS дополнительные иконки
       * Результат на странице https://www.dropbox.com/s/jde5uaykf84hsak/05_custom_css.png?dl=0
@@ -117,7 +119,7 @@ $(function() {
      * Результат в коде Омнидеска https://www.dropbox.com/s/ilkkfmf81s63zjw/07_snow.png?dl=0
      * Результат на странице: https://www.dropbox.com/s/yp36vle7yu7vm38/07_2_snow.png?dl=0
      */
-    $.get('https://cdnjs.cloudflare.com/ajax/libs/JQuery-Snowfall/1.7.4/snowfall.jquery.min.js', {
+    //$.get('https://cdnjs.cloudflare.com/ajax/libs/JQuery-Snowfall/1.7.4/snowfall.jquery.min.js', {
 
     }, function(jsLibCode) {
         $("body").append($("<script />", {
